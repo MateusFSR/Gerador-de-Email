@@ -39,7 +39,7 @@ if more1 == 1:
       mani1 = input("Nº Do Manifesto Praça 1: ")
       mani2 = input("Nº Do Manifesto Praça 2: ")
 
-      Quimico1 = int(input("Quimico ?\n"
+      Quimico1 = int(input("Existe Quimico ?\n"
                            "[1] Sim\n"
                            "[2] Não\n"
                            "Selecione uma Opção: "))
