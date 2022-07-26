@@ -33,15 +33,15 @@ if more1 == 1:
                   break
       Prev2 = input("Previsão de Chegada: ")
 
-      mani1 = input("Manifesto: ")
-      mani2 = input("Manifesto: ")
+      mani1 = input("Nº Do Manifesto Cidade 1: ")
+      mani2 = input("Nº Do Manifesto Cidade 2: ")
 
       Quimico1 = int(input("Quimico ?\n"
                            "[1] Sim\n"
                            "[2] Não\n"))
 #--------------Mais Praça Quimico --------------------------------
       if Quimico1 == 1:
-            maniq = input("Manifesto Quimico: ")
+            maniq = input("Nº Do Manifesto Quimico: ")
             while True:
                   cityq = int(input("[1] - Belem\n"
                                        "[2] - Manaus\n"
@@ -208,7 +208,7 @@ if more1 == 1:
             input("Pressione Qualquer Tecla Para Sair.\n")
 #--------------Praça Unica --------------------------------
 if more1 == 2:
-                  mani1 = input("Manifesto: ")
+                  mani1 = input("Nº Do Manifesto: ")
 
                   Quimico1 = int(input("Quimico ?\n"
                                        "[1] Sim\n"
