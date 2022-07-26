@@ -6,7 +6,8 @@ while True:
                  "[3] - Maraba\n"
                  "[4] - Paragominas\n"
                  "[5] - Porto Velho\n"
-                 "[6] - Palmas\n"))
+                 "[6] - Palmas\n"
+                 "Selecione uma Opção: "))
       if Destino1 < 1 or Destino1 > 6:
             print("Cidade Invalida")
       else:
@@ -16,7 +17,8 @@ Prev1 = input("Previsão de Chegada: ")
 
 more1 = int(input("Mais praças ?\n"
                   "[1] Sim\n"
-                  "[2] Não\n"))
+                  "[2] Não\n"
+                  "Selecione uma Opção: "))
 #--------------Mais Praça ---------------------------------
 if more1 == 1:
 
@@ -26,19 +28,21 @@ if more1 == 1:
                        "[3] - Maraba\n"
                        "[4] - Paragominas\n"
                        "[5] - Porto Velho\n"
-                       "[6] - Palmas\n"))
+                       "[6] - Palmas\n"
+                       "Selecione uma Opção: "))
             if Destino2 < 0 or Destino2 > 6:
                   print("Cidade Invalida")
             else:
                   break
       Prev2 = input("Previsão de Chegada: ")
 
-      mani1 = input("Nº Do Manifesto Cidade 1: ")
-      mani2 = input("Nº Do Manifesto Cidade 2: ")
+      mani1 = input("Nº Do Manifesto Praça 1: ")
+      mani2 = input("Nº Do Manifesto Praça 2: ")
 
       Quimico1 = int(input("Quimico ?\n"
                            "[1] Sim\n"
-                           "[2] Não\n"))
+                           "[2] Não\n"
+                           "Selecione uma Opção: "))
 #--------------Mais Praça Quimico --------------------------------
       if Quimico1 == 1:
             maniq = input("Nº Do Manifesto Quimico: ")
@@ -48,9 +52,10 @@ if more1 == 1:
                                        "[3] - Maraba\n"
                                        "[4] - Paragominas\n"
                                        "[5] - Porto Velho\n"
-                                       "[6] - Palmas\n"))
+                                       "[6] - Palmas\n"
+                                       "Selecione uma Opção: "))
                   if cityq < 1 or cityq > 6:
-                        print("Cidade Invalida")
+                        print("Praça Invalida")
                   else:
                         break
             SM = input("SM: ")
@@ -142,7 +147,7 @@ if more1 == 1:
             Resultado = f'''Boa Tarde.\n\nSaiu em Viagem, Motorista {Motora}\n\nPrevisão de chegada em {Destino1} dia {Prev1}/2022\n\nPrevisão de chegada em {Destino2} dia {Prev2}/2022\n\nManifesto {abv1}-{mani1} = ( Notas {Destino1} )\n\nManifesto {abv2}-{mani2} = ( Notas {Destino2} )\n\nManifesto Quimico {abvq}-{maniq} = (Notas {cityq} Quimico)\n\n SM: {SM}\n\nAtt:\n\n'''
 
             print(Resultado)
-            input("Pressione Qualquer Tecla Para Sair.\n")
+            input("Pressione Enter Tecla Para Sair.\n")
 
 # --------------Mais Praça Sem Quimico --------------------------------
       if Quimico1 == 2:
@@ -205,14 +210,15 @@ if more1 == 1:
             SM = input("SM: ")
             Resultado = f'''Boa Tarde.\n\nSaiu em Viagem, Motorista {Motora}\n\nPrevisão de chegada em {Destino1} dia {Prev1}/2022\n\nPrevisão de chegada em {Destino2} dia {Prev2}/2022\n\nManifesto {abv1}-{mani1} = ( Notas {Destino1} )\n\nManifesto {abv2}-{mani2} = ( Notas {Destino2} )\n\nSM: {SM}\n\nAtt:\n\n'''
             print(Resultado)
-            input("Pressione Qualquer Tecla Para Sair.\n")
+            input("Pressione Enter Tecla Para Sair.\n")
 #--------------Praça Unica --------------------------------
 if more1 == 2:
                   mani1 = input("Nº Do Manifesto: ")
 
-                  Quimico1 = int(input("Quimico ?\n"
+                  Quimico1 = int(input("Existe Quimico ?\n"
                                        "[1] Sim\n"
-                                       "[2] Não\n"))
+                                       "[2] Não\n"
+                                       "Selecione uma Opção: "))
 # --------------Praça Unica Quimico --------------------------------
                   if Quimico1 == 1:
                         maniq = input("Manifesto Quimico: ")
@@ -222,7 +228,8 @@ if more1 == 2:
                                                 "[3] - Maraba\n"
                                                 "[4] - Paragominas\n"
                                                 "[5] - Porto Velho\n"
-                                                "[6] - Palmas\n"))
+                                                "[6] - Palmas\n"
+                                                "Selecione uma Opção: "))
                               if cityq < 1 or cityq > 6:
                                     print("Cidade Invalida")
                               else:
@@ -286,7 +293,7 @@ if more1 == 2:
 
                         Resultado = f'''Boa Tarde.\n\nSaiu em Viagem, Motorista {Motora}\n\nPrevisão de chegada em {Destino1} dia {Prev1}/2022\n\nManifesto {abv1}-{mani1} = ( Notas {Destino1} )\n\nManifesto Quimico {abvq}-{maniq} = (Notas {cityq} Quimico)\n\nSM: {SM}\n\nAtt:\n\n'''
                         print(Resultado)
-                        input("Pressione Qualquer Tecla Para Sair.\n")
+                        input("Pressione Enter Tecla Para Sair.\n")
 # --------------Praça Unica Sem Quimico --------------------------------
                   if Quimico1 == 2:
                         # variaveis
@@ -321,4 +328,4 @@ if more1 == 2:
                         Resultado = f'''Boa Tarde.\n\nSaiu em Viagem, Motorista {Motora}\n\nPrevisão de chegada em {Destino1} dia {Prev1}/2022\n\nManifesto {abv1}-{mani1} = ( Notas {Destino1} )\n\nSM: {SM}\n\nAtt:\n\n'''
                         print(Resultado)
                         
-                        input("Pressione Qualquer Tecla Para Sair.\n")
+                        input("Pressione Enter Tecla Para Sair.\n")
