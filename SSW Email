@@ -147,7 +147,7 @@ if more1 == 1:
             Resultado = f'''Boa Tarde.\n\nSaiu em Viagem, Motorista {Motora}\n\nPrevisão de chegada em {Destino1} dia {Prev1}/2022\n\nPrevisão de chegada em {Destino2} dia {Prev2}/2022\n\nManifesto {abv1}-{mani1} = ( Notas {Destino1} )\n\nManifesto {abv2}-{mani2} = ( Notas {Destino2} )\n\nManifesto Quimico {abvq}-{maniq} = (Notas {cityq} Quimico)\n\n SM: {SM}\n\nAtt:\n\n'''
 
             print(Resultado)
-            input("Pressione Enter Tecla Para Sair.\n")
+            input("Pressione Enter Para Sair.\n")
 
 # --------------Mais Praça Sem Quimico --------------------------------
       if Quimico1 == 2:
@@ -210,7 +210,7 @@ if more1 == 1:
             SM = input("SM: ")
             Resultado = f'''Boa Tarde.\n\nSaiu em Viagem, Motorista {Motora}\n\nPrevisão de chegada em {Destino1} dia {Prev1}/2022\n\nPrevisão de chegada em {Destino2} dia {Prev2}/2022\n\nManifesto {abv1}-{mani1} = ( Notas {Destino1} )\n\nManifesto {abv2}-{mani2} = ( Notas {Destino2} )\n\nSM: {SM}\n\nAtt:\n\n'''
             print(Resultado)
-            input("Pressione Enter Tecla Para Sair.\n")
+            input("Pressione Enter Para Sair.\n")
 #--------------Praça Unica --------------------------------
 if more1 == 2:
                   mani1 = input("Nº Do Manifesto: ")
@@ -293,7 +293,7 @@ if more1 == 2:
 
                         Resultado = f'''Boa Tarde.\n\nSaiu em Viagem, Motorista {Motora}\n\nPrevisão de chegada em {Destino1} dia {Prev1}/2022\n\nManifesto {abv1}-{mani1} = ( Notas {Destino1} )\n\nManifesto Quimico {abvq}-{maniq} = (Notas {cityq} Quimico)\n\nSM: {SM}\n\nAtt:\n\n'''
                         print(Resultado)
-                        input("Pressione Enter Tecla Para Sair.\n")
+                        input("Pressione Enter Para Sair.\n")
 # --------------Praça Unica Sem Quimico --------------------------------
                   if Quimico1 == 2:
                         # variaveis
@@ -328,4 +328,4 @@ if more1 == 2:
                         Resultado = f'''Boa Tarde.\n\nSaiu em Viagem, Motorista {Motora}\n\nPrevisão de chegada em {Destino1} dia {Prev1}/2022\n\nManifesto {abv1}-{mani1} = ( Notas {Destino1} )\n\nSM: {SM}\n\nAtt:\n\n'''
                         print(Resultado)
                         
-                        input("Pressione Enter Tecla Para Sair.\n")
+                        input("Pressione Enter Para Sair.\n")
