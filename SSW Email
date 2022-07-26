@@ -53,6 +53,7 @@ if more1 == 1:
                         print("Cidade Invalida")
                   else:
                         break
+            SM = input("SM: ")
 
             #variaveis
             if Destino1 == 1:
@@ -138,7 +139,7 @@ if more1 == 1:
                   abvq = "Pmw"
 
 
-            Resultado = f'''Boa Tarde.\n\nSaiu em Viagem, Motorista {Motora}\n\nPrevisão de chegada em {Destino1} dia {Prev1}/2022\n\nPrevisão de chegada em {Destino2} dia {Prev2}/2022\n\nManifesto {abv1}-{mani1}, {Motora} ( Notas {Destino1} )\n\nManifesto {abv2}-{mani2}, {Motora} ( Notas {Destino2} )\n\nManifesto Quimico {abvq}-{maniq}, {Motora}, (Notas {cityq} Quimico)\n\n'''
+            Resultado = f'''Boa Tarde.\n\nSaiu em Viagem, Motorista {Motora}\n\nPrevisão de chegada em {Destino1} dia {Prev1}/2022\n\nPrevisão de chegada em {Destino2} dia {Prev2}/2022\n\nManifesto {abv1}-{mani1} = ( Notas {Destino1} )\n\nManifesto {abv2}-{mani2} = ( Notas {Destino2} )\n\nManifesto Quimico {abvq}-{maniq} = (Notas {cityq} Quimico)\n\n SM: {SM}\n\nAtt:\n\n'''
 
             print(Resultado)
             input("Pressione Qualquer Tecla Para Sair.\n")
@@ -201,7 +202,8 @@ if more1 == 1:
             if Destino2 == "Palmas/to":
                   abv2 = "Pmw"
             # ----------------------------------------
-            Resultado = f'''Boa Tarde.\n\nSaiu em Viagem, Motorista {Motora}\n\nPrevisão de chegada em {Destino1} dia {Prev1}/2022\n\nPrevisão de chegada em {Destino2} dia {Prev2}/2022\n\nManifesto {abv1}-{mani1}, {Motora} ( Notas {Destino1} )\n\nManifesto {abv2}-{mani2}, {Motora} ( Notas {Destino2} )\n\n'''
+            SM = input("SM: ")
+            Resultado = f'''Boa Tarde.\n\nSaiu em Viagem, Motorista {Motora}\n\nPrevisão de chegada em {Destino1} dia {Prev1}/2022\n\nPrevisão de chegada em {Destino2} dia {Prev2}/2022\n\nManifesto {abv1}-{mani1} = ( Notas {Destino1} )\n\nManifesto {abv2}-{mani2} = ( Notas {Destino2} )\n\nSM: {SM}\n\nAtt:\n\n'''
             print(Resultado)
             input("Pressione Qualquer Tecla Para Sair.\n")
 #--------------Praça Unica --------------------------------
@@ -225,6 +227,7 @@ if more1 == 2:
                                     print("Cidade Invalida")
                               else:
                                     break
+                        SM = input("SM: ")
 
                         # variaveis
                         if Destino1 == 1:
@@ -281,7 +284,7 @@ if more1 == 2:
                         if cityq == "Palmas/to":
                               abvq = "Pmw"
 
-                        Resultado = f'''Boa Tarde.\n\nSaiu em Viagem, Motorista {Motora}\n\nPrevisão de chegada em {Destino1} dia {Prev1}/2022\n\nManifesto {abv1}-{mani1}, {Motora} ( Notas {Destino1} )\n\nManifesto Quimico {abvq}-{maniq}, {Motora}, (Notas {cityq} Quimico)\n\n'''
+                        Resultado = f'''Boa Tarde.\n\nSaiu em Viagem, Motorista {Motora}\n\nPrevisão de chegada em {Destino1} dia {Prev1}/2022\n\nManifesto {abv1}-{mani1} = ( Notas {Destino1} )\n\nManifesto Quimico {abvq}-{maniq} = (Notas {cityq} Quimico)\n\nSM: {SM}\n\nAtt:\n\n'''
                         print(Resultado)
                         input("Pressione Qualquer Tecla Para Sair.\n")
 # --------------Praça Unica Sem Quimico --------------------------------
@@ -314,6 +317,8 @@ if more1 == 2:
                         if Destino1 == "Palmas/to":
                               abv1 = "Pmw"
                         # ----------------------------------------
-                        Resultado = f'''Boa Tarde.\n\nSaiu em Viagem, Motorista {Motora}\n\nPrevisão de chegada em {Destino1} dia {Prev1}/2022\n\nManifesto {abv1}-{mani1}, {Motora} ( Notas {Destino1} )\n\n'''
+                        SM = input("SM: ")
+                        Resultado = f'''Boa Tarde.\n\nSaiu em Viagem, Motorista {Motora}\n\nPrevisão de chegada em {Destino1} dia {Prev1}/2022\n\nManifesto {abv1}-{mani1} = ( Notas {Destino1} )\n\nSM: {SM}\n\nAtt:\n\n'''
                         print(Resultado)
+                        
                         input("Pressione Qualquer Tecla Para Sair.\n")
